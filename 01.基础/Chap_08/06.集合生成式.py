@@ -18,3 +18,4 @@ prices：长度为4
 d= {item:price for item ,price in zip(items,prices)}
 print(d)
 print(id(d))
+print(type(d))

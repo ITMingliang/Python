@@ -4,7 +4,7 @@ print('=====================1.获取所有的key=====================')
 keys=score_dic.keys() #获取字典的所有key视图
 print(keys)
 print(type(keys))  #字典的key视图类型:<class 'dict_keys'>
-print(list(keys))  #字典的key类型视图转为元组
+print(list(keys))  #字典的key类型视图转为列表
 
 #2.获取所有的values
 print('=====================2.获取所有的values=====================')

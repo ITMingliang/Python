@@ -9,15 +9,15 @@ print(t1)
 print(type(t1))
 
 '''
-元组在使用过程中，如果只包含一个元素，要进行在第一个元素后面添加逗号
+元组在使用过程中，如果只包含一个元素，要进行在第一个元素后面添加逗号，注意观察下面两个例子
 '''
 t=('Python')
 print(t)
-print(type(t))
+print(type(t))#Type为str
 
 t=('Python',)
 print(t)
-print(type(t))
+print(type(t))#Type为tuple
 
 #2.使用内置函数tuple()创建
 print('=====================2.使用内置函数tuple()创建=====================')
@@ -43,6 +43,7 @@ print('====空字典====')
 print(dic1,type(dic1))
 print(dic2,type(dic2))
 ''''''
+'''空元组的创建'''
 #空元组
 t1=()
 t2=tuple()
